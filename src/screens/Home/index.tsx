@@ -1,5 +1,6 @@
 import { View, Text, TextInput, TouchableOpacity } from 'react-native';
 import { styles } from './styles';
+import { Participant } from '../../components/Participant';
 
 export default function Home() {
 
@@ -26,6 +27,9 @@ export default function Home() {
         </TouchableOpacity>
 
       </View>
+
+      <Participant/>
+      <Participant/>
     </View>
   );
 }
