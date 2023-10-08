@@ -28,8 +28,9 @@ export default function Home() {
 
       </View>
 
-      <Participant/>
-      <Participant/>
+      <Participant name="Leonardo"/>
+      <Participant name="Diego"/>
+      <Participant name="Rodrigo"/>
     </View>
   );
 }
